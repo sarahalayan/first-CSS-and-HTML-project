@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+header{
+    display: flex;/* so that they don't get in top of each other */
+    justify-content: space-between;/*wen 7a ybayno l children*/
+    align-items: center;/*so that all written text will appear on the same line level*/
+    padding: 5% 2%;
+    background-color: black;
+}
+nav ul{
+    display: flex;/*so that they appear hz*/
+list-style: none;/*to remove the disk*/
+
+}
+li{
+    
+    margin-right:20px ;/*to put a space b/w each li*/
+    /* padding: 5%; */
+}
+nav a{
+    text-decoration: none;/*to remove the underlining*/
+    color: rgb(211, 204, 204);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+nav a:hover{
+    color: rgb(107, 4, 11);
+    padding-left: 8%;/*they start dancing to the left*/
+}
+
+header h1{
+    font-family:/* 'Brush Script MT', cursive; */
+    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(211, 204, 204);
+    text-size-adjust: auto;
+    text-shadow: rgb(251, 7, 23) 1px 0 10px;
+}
+.one{
+    
+    background-image: url(6.jpg);
+    background-size: cover;
+     padding: 40%;
+     position: relative;
+     text-align: center;
+     
+}
+.q{
+    background-image: url(quoteimg.jpg);
+    background-size: cover;
+     padding: 40%;
+     position: relative;
+     text-align: center;  
+     color:  rgb(211, 204, 204);
+    
+}
+.a{ display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    margin-top: 5%;
+    border: 1px none none;
+    padding: 10%;
+    width: 200px;
+  height: 200px;
+    text-align: justify;
+}
+.b{ display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 16px;
+    margin-top: 5%;
+    border: 1px none none;
+    padding: 10%;
+    width: 200px;
+  height: 200px;
+    text-align: justify;
+}
+.d{ display: flex;
+    position:absolute;
+    top: 20px;
+    right: 16px;
+    margin-top: 5%;
+    border: 1px none none;
+    padding: 10%;
+    width: 200px;
+  height: 200px;
+    text-align: justify;
+}
+.e{ display: flex;
+    position: absolute;
+    top: 20px;
+   left: 16px;
+    margin-top: 5%;
+    border: 1px none none;
+    padding: 10%;
+    width: 200px;
+  height: 200px;
+    text-align: justify;
+}
+
+
+.two {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    display: flex;
+    /* text-align: right; */
+     font-weight: bold;
+     /* font-family: fantasy; */
+     color:rgb(211, 204, 204) ;
+     padding:0%;
+     align-items: first baseline;
+     /* justify-content: right; */
+}
+button{
+    padding: 3%;
+    margin-top: 5%;
+    border-radius: 5%;
+    border: none;
+    color: rgb(251, 7, 23);
+    font-weight: bold;
+    background-color: rgb(211, 204, 204);
+}
+.two ul{
+    text-align: center;
+    list-style: none;
+}
+.two a{
+    text-decoration: none;/*to remove the underlining*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.two a:hover{
+    color: rgb(176, 14, 14);
+}
+.three{
+    position: absolute;
+    top: 8px;
+    right: 4px;
+    display: flex;
+    flex-direction: column;/*if not present, h3 and p will appear beside each other*/
+    flex-wrap: wrap;
+     /* font-weight: bold; */
+     color:rgb(211, 204, 204) ;
+     padding:5%;
+     align-items: center;
+     margin-right: 2%;
+     text-align: center;
+     
+}
+@font-face{
+    font-family: fontone;
+    src: url("Cerellia.otf");
+
+}
+.three p{
+    margin-top: 5%;
+    border: 1px none none;
+    padding: 10%;
+    width: 200px;
+  height: 200px;
+    text-align: justify;/*so that each line has equal width*/
+}
+ h2{
+    font-weight: bold;
+    padding-bottom: 0%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(107, 4, 11) ;
+   font-size: 30pvw;
+   margin-bottom: inherit;
+}
+.four{
+    color: rgb(211, 204, 204);
+    margin-top: 5%;
+    border: 1px none none;
+    padding: 10%;
+    width: 200px;
+  height: 200px;
+    text-align: justify;/*so that each line has equal width*/
+}
+.four a{text-decoration: none;/*to remove the underlining*/
+    color: rgb(199, 80, 80);}
+.five{
+    position: absolute;
+    bottom: 60px;
+    left: 16px;
+}
+.five h2{
+    border: 1px none none;
+    width: 200px;
+    margin-left:10% ;
+}
+footer{
+    text-align: center;
+    background-color:black ;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    color: rgb(107, 4, 11);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}/*it takes the whole page and apply for everything*/
+.social a{
+    
+    box-sizing: border-box;
+display: inline-block;
+ height: 40px; 
+width:40px ;
+ background-color: rgb(211, 204, 204) ; 
+ margin: 0 10px 10px 0;
+ text-align: center; 
+ line-height: 40px; 
+ border-radius: 50%;
+color: rgb(14, 14, 176);
+ transition: all 0.5s ease; 
+}
+.social h3{
+    padding-bottom: 10px;
+}
+.social a:hover{
+    color:rgb(107, 4, 11) ;
+}
+footer h3{
+    font-size: x-large;
+}
+.images{margin: 10px;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.imagee{
+    display: inline;
+  margin: 1%;
+  height: auto;
+  width: 300px;
+  float: top;
+  padding: 5px 5px 5px 5px;
+  border-radius: 30%;
+}
+.writer em{
+    margin: 0;
+    font-weight: bold;
+color:  rgb(107, 4, 11);
+}
+.writer{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px 5px 5px ;
+}
+.text{width:65%;
+    margin: 2%;
+    margin-left: auto;
+    text-align: justify;
+    float: top;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.text a{
+    text-decoration: none;
+    color: rgb(107, 4, 11);
+}
+@media only screen and (min-width:700px){
+
+}
